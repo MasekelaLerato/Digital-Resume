@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <!-- hero section -->
+    <header class="hero">
+      <div class="container">
+        <div class="item-1">
+          <h1>Lerato Masekela</h1>
+          <h2>Software Developer</h2>
+          <p>
+            I am an entry-level software developer with a strong foundation in programming and a certification in software development. I am proficient in HTML,CSS and JavaScript. I am a dedicated and quick learner, eager to apply my knowledge to real-world projects. My adaptability, problem solving abilities and commitment to high quality code makes me a valuable addition to any software development team.
+          </p>
+        </div>
+        <!-- A picture of myself -->
+        <picture>
+          <source media="(max-width:600px)" srcset="images/me-small.jpg" />
+          <source media="(max-width:900px)" srcset="images/me-medium.jpg" />
+          <img src="images/me.jpg" alt="me" width="400" height="250" />
+        </picture>
+      </div>
+    </header>
+    <aside>
+      <!-- Navigation bar -->
+      <nav class="nav-bar">
+        <a href="#education">Education </a>
+        <a href="#experience">Experience </a>
+        <a href="#skills">Skills </a>
+        <a href="#contact me">Contact Me </a>
+      </nav>
+    </aside>
+    <article>
+      
+      <!-- positioning on the main contents -->
+      <section class="grid-container">
+        <div class="grid-item">
+          <h3 id="education">Education</h3>
+          <h4>Code Space Academy</h4>
+          <p>June 2023 - December 2023</p>
+          <p>
+            I completed a 400 hour course in Software Development. The course
+            prepared me as a full-stack developer who can create functional, dynamic
+            web applications.
+            
+          </p>
+          <h4>Hexagon High School</h4>
+          <p>Matric Certificate</p>
+          <p>January 2020 - December 2020</p>
+         
+          
+          <h3>Qualification</h3>
+          <p>National Senior Certificate</p>
+          <p>2016-2020</p>
+          <p>Software Development Certificate</p>
+          <p>June 2023 - December 2023</p>
+          
+          <h3 id="experience">Experience</h3>
+          <h4>Code Space Academy</h4> 
+            <h5>Class Facilitator</h5>
+            June 2023 - December 2023
+            <p> Worked with the programme coordinator to facilitate at least two in person students a month. Session topics were related to course content.
+            </p>
+         
+            <h4>Hexagon High School</h4> 
+         <h5>Debate adjudicator </h5>
+            January 2020 - November 2020
+            <p></p>Responsible for evaluating and scoring debates. Assessed the arguments, presentation and overall performance of debaters. 
+            </p>
+        </div>
+       
+       <!-- skills section positioning -->
+        <div class="grid-item">
+          <h3 id="skills">Skills</h3>
+          <ul>
+            <li>JavaScript</li>
+            <br />
+            <li>HTML</li>
+            <br />
+            <li>CSS</li>
+            <br />
+            <li>React.js</li>
+            <br />
+            <li>Node.js</li>
+            <br />
+            <li>Typescript</li>
+            <br />
+            <li>Git</li>
+            <br />
+            <li>Figma</li>
+            <br />
+            <li>Problem Solving</li>
+            <br />
+            <li>Team Work</li>
+          </ul>
+          
+          
+          <h3 id="contact me">Contact Me</h3>
+         <!-- contact section positioning -->
+          <div id="social-links" class="flex-container">
+            
+            <!-- link to linkedin -->
+            <a
+              href="https://www.linkedin.com/in/lerato-masekela-64783025b/"
+              target="_blank"
+            >
+            
+            <!-- linkedin favicon -->
+              <img
+                class="flex-item-1"
+                src="images/linkedin (2).png"
+                alt="linkedin icon"
+                width="100"
+                height="100"
+              />
+            </a>
+            
+            <!-- link to github -->
+            <a href="https://github.com/MasekelaLerato" target="_blank">
+               
+              <!-- github favicon -->
+              <img
+                class="flex-item-2"
+                src="images/github (1).png"
+                alt="github icon"
+                width="100"
+                height="100"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <form
+        action="https://formsubmit.co/masekelalerato7@gmail.com"
+        method="post"
+      >
+        <label for="email">email:</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="required"
+          required
+        />
+        <br />
+        <label for="reason for contact">Reason for contact:</label>
+        <select id="reason" name="reason for contact" required>
+          <option value="Website Feedback">Website Feedback</option>
+          <option value="Interview">Interview</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <label for="message">message:</label>
+        <br />
+        <textarea
+          name="message"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="message me here "
+          optional
+        ></textarea>
+        <button type="submit">Submit</button>
+        <div class="email-section">
+          <h5>My email:</h5>
+          <p>masekelalerato7@gmail.com</p>
+        </div>
+      </form>
+    </footer>
+  </body>
+</html>
